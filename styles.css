@@ -1,0 +1,123 @@
+/* fonts */
+@font-face {
+  font-family: Red_Hat_display;
+  src:url(fonts/RedHatDisplay_Bold.ttf);
+}
+
+@media screen and (min-width:375px){
+
+
+  body{
+    background: #D6E1FF;
+
+  }
+  .content-wrapper{
+    width:327px;
+    margin:0 auto;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: white;
+  }
+  .hello-img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .texts{
+    margin:0 32px;
+  }
+  .payment{
+    background: #F7F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:82%;
+    border-radius: 8px;
+    margin:10px 0;
+  }
+  .icon-price-wrapper{
+    display:flex;
+    align-items: center;
+    margin:12px 0;
+  }
+  .note-icon{
+    width:48px;
+    height:48px;
+    margin-right: 10px;
+  }
+.payment-btn{
+  background: #382AE1;
+  box-shadow: 0 20px 20px rgba(56, 42, 225, 0.190291);
+  width:279px;
+  border-radius: 11px;
+  border: none;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin:10px 0;
+  justify-content: space-around;
+}
+/* text styles */
+
+ body{
+   font-family: Red_Hat_display;
+ }
+ .title, .description{
+   text-align: center;
+   font-style:normal;
+ }
+ .title{
+   font-weight:900;
+   line-height:29px;
+   font-size:22px;
+   color: #1F2E55;
+ }
+ .description{
+  font-weight:500;
+  line-height:25px;
+  font-size:15px;
+  color: #717FA6
+
+ }
+ .plan-annual{
+   font-weight:900;
+   line-height:19px;
+   font-size:14px;
+   color: #1F2E55;
+ }
+ .annual-price{
+   font-weight:500;
+   line-height:19px;
+   font-size:14px;
+   color: #717FA6;
+ }
+ .change-plan-href{
+   font-weight:700;
+   line-height:17px;
+   font-size:13px;
+   color: #382AE1;
+ }
+ .payment-btn{
+   font-weight:900;
+   line-height:20px;
+   font-size:15px;
+   color: #ffffff;
+
+ }
+.cancel-order{
+  font-weight:900;
+  line-height:20px;
+  font-size:15px;
+  color: #717FA6;
+}
+
+/* end of text styles */
+
+
+}
