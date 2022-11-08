@@ -9,7 +9,7 @@
 
 
 ## Overview
-- this simple project displays a card of order summary component.
+- this project displays a card of order summary component.
 
 ### Screenshot
 
